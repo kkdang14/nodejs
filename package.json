@@ -1,0 +1,32 @@
+{
+  "name": "code_forever",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon --inspect app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kkdang14/nodejs.git"
+  },
+  "keywords": [
+    "kkdang14",
+    "nodejs",
+    "dangnodejs",
+    "nodejskkd"
+  ],
+  "author": "kkdang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kkdang14/nodejs/issues"
+  },
+  "homepage": "https://github.com/kkdang14/nodejs#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
