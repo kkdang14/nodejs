@@ -24,7 +24,8 @@
   },
   "homepage": "https://github.com/kkdang14/nodejs#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.2"
   },
   "devDependencies": {
     "morgan": "^1.10.0",

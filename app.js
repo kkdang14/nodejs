@@ -1,12 +1,14 @@
 const express = require('express')
-const morgan = requre('morgan')
+const morgan = require('morgan')
 const app = express()
 const port = 3000
 
 app.use(morgan('combined'))
 
-app.get('/trang', (req, res) => {
-    res.send('Hello World!')
+app.get('/hello', (req, res) => {
+    res.send(`
+        <h1>Hello world</h1>
+    `)
 })
 
 app.listen(port, () => {
