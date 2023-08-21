@@ -6,12 +6,14 @@ const app = express();
 const port = 3000;
 const hbs = handlebars.create({extname: '.hbs'});
 
+app.use(express.static(path.join(__dirname, 'public')));
+
 app.use(morgan('combined'));
 
 app.engine('hbs', hbs.engine);
 
 app.set('view engine', 'hbs');
-app.set('views', path.join(__dirname, 'resource/views'));
+app.set('views', path.join(__dirname, 'resources/views'));
 
 app.get('/home', (req, res) => {
     res.render('home');
